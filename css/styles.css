@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+    color: #b7d7e8;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+header, main, footer, nav{
+    text-align: center;
+}
+header {
+    background-color : #b7d7e8;
+    background-image: url(background.png);
+    padding : -10px;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    color : white;
+}
+footer{
+    font-size: 20px;
+}
+em{
+    font-size: 20px;
+}
+p {
+    color: white;
+}
+tr {
+    background-color: #cfe0e8;
+    color: white;
+    text-align: center;
+}
+table {
+    width: 100%;
+}
+
+.rowone {
+    width: 33%;   
+}
+
+#csumb {
+    padding: 0px 580px;
+}
+
+#homediv {
+    background-color: #b7d7e8;
+}
+#src {
+    color: white;
+}
+.horzNav {
+    font-family: 'Amatic SC', cursive;
+    overflow: hidden;
+    padding: -40px;
+}
+.horzNav a {
+    color: #b7d7e8;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 50px;
+}
+.horzNav a:hover {
+    background-color: #b7d7e8;
+    color: white;
+}
+.horzNav .active {
+    background-color : #4CAF50;
+    color: white;
+}
+.even {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+img {
+    transition: width 2s, height 4s;
+}
+#board {
+    border: 5px solid #b7d7e8;
+}
